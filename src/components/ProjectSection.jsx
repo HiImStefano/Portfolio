@@ -1,18 +1,20 @@
 import React from 'react'
 import { Github, ArrowRight, ExternalLink } from "lucide-react";
+import pangeaImage from "@/assets/Pangea.JPG";
+import shoeLagoonImage from "@/assets/ShoeLagoonLogo.PNG";
 
 const projects = [
     {
         title: "Pangea",
         description: "A Full Stack E-Commerce Site created using React, Node.Js, Firebase DB.",
-        image: "/src/assets/Pangea.JPG",
+        image: pangeaImage,
         tags: ["React.js", "Node.js", "Firebase"],
         link: "https://github.com/HiImStefano/Pangea-Ecommerce-Store"
     },
     {
         title: "Shoe Lagoon",
         description: "A Mobile Application for E-Commerce created using React-Native, Node.js, and Firebase.",
-        image: "/src/assets/ShoeLagoonLogo.PNG",
+        image: shoeLagoonImage,
         tags: ["React-Native", "Node.js", "JavaScript"],
         link: "https://github.com/HiImStefano/ShoeLagoon"
     }
